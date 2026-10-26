@@ -1,0 +1,113 @@
+.whyus{
+    margin: auto;
+    width: 1200px;
+    margin-top: 500px;
+    background-color: #333D4B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    border-radius: 2%;
+
+    &__h1{
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        /* identical to box height, or 120% */
+    
+        color: #FEFCF7;
+    }
+
+    &__p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        width: 528px;
+        text-align: center;
+    
+        color: #FEFCF7;
+    
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1000px;
+    }
+
+    &__card1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #979797;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 1700px;
+        border-radius: 3%;
+    }
+
+    &__card2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #979797;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 1700px;
+        margin-left: 350px;
+        border-radius: 3%;
+    }
+
+    &__card3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background-color: #979797;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 1700px;
+        margin-left: 700px;
+        border-radius: 3%;
+        text-align: center;
+    }
+
+    &__H4{    
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        text-align: center;
+    
+        color: #FEFCF7;
+    }
+
+    &__P1{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        text-align: center;
+    
+        color: #FEFCF7;
+    }
+
+
+}

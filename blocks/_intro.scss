@@ -1,0 +1,65 @@
+.intro {
+  width: 1200px;
+  background-color: #a2a2a2;
+  margin: auto;
+  border-radius: 1%;
+  height: 500px;
+  padding: 75px 70px;
+
+  &__h1 {
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 72px;
+
+    width: 500px;
+
+    color: #fefcf7;
+  }
+
+  &__p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #fefcf7;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+    width: 425px;
+  }
+
+  &__btn {
+    &:hover {
+      background-color: #5c5252;
+      transition: 0.5s;
+    }
+
+    &:active {
+      background-color: #ad1f1f;
+      transition: 0.5s;
+    }
+
+    background: #0e8784;
+    border-radius: 6px;
+
+    font-family: "Fraunces 9pt";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #fefcf7;
+
+    border: 0;
+    width: 217px;
+    height: 56px;
+
+    margin-top: 70px;
+  }
+}

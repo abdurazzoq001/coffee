@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1355px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: auto;
+
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        width: 300px;
+    }
+
+    &__link{
+        font-size: 12px;
+        color: #83888F;
+        font-weight: 600;
+        font-family: 'Barlow';
+    }
+
+    &__item{
+        :hover{
+            color: #333D4B;
+            transition: 0.5s;
+        }
+
+        :active{
+            color: #FDD6BA;
+            transition: 0.5s;
+        }
+    }
+
+    &__img{
+        width: 236px;
+    }
+}

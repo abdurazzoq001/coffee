@@ -1,0 +1,73 @@
+.howwork{
+    margin: auto;
+    width: 1200px;
+    margin-top: 500px;
+    margin-bottom: 100px;
+
+    &__h4{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        /* identical to box height, or 133% */
+    
+        color: #83888F;
+    }
+
+    &__cards{
+        display: flex;
+        width: 1100px;
+        justify-content: space-between;
+    }
+
+    &__h1{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+
+        color: #FDD6BA;
+    }
+
+    &__h3{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        width: 200px;
+    }
+
+    &__p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        width: 300px;
+    }
+}
+
+
+.oval{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.shapes{
+    display: flex;
+    width: 870px;
+    align-items: center;
+}
+
+.line{
+    width: 400px;    
+    background-color: #FDD6BA; 
+    height: 1px;
+}

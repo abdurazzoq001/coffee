@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    background-color: #2C343E;
+    width: 1200px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+
+    &__img{
+        width: 200px;
+    }
+
+    &__link{
+        &:hover{
+            background-color: #FDD6BA;
+
+        }
+    }
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#footer__item{
+    :hover{
+        color: white;
+    }
+}
