@@ -1,0 +1,17 @@
+.uncompro{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    background-color: #2C343E;
+    margin-top: 200px;
+    padding: 75px 50px;
+    justify-content: space-between;
+
+
+    &__right{
+        position: absolute;
+        top: 1300px;
+        width: 400px;
+        margin-left: 750px;
+    }
+}
