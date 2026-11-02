@@ -1,0 +1,143 @@
+.howdoyou{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+
+    &__card{
+        background: #F4F1EB;
+        border-radius: 8px;
+
+        top: calc(50% - 32px/2 - 51px);
+
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #333D4B;
+
+        width: 228px;
+        height: 250px;
+
+        &:hover{
+            background-color: #333D4B;
+            color: white;
+            transition: 1s;
+        }
+
+        &:active{
+            background-color: #FDD6BA;
+            transition: 1ms;
+            color: #333D4B;
+        }
+    }
+
+    &__h4{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        margin: 30px;
+    }
+
+    &__text{
+        margin: 30px;
+    }
+
+    &__cards{
+        display: flex;
+        width: 730px;
+        justify-content: space-between;
+    }
+
+    &__h2{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+
+        color: #83888F;
+        
+    }
+
+    &__h3text{
+        mix-blend-mode: normal;
+        opacity: 0.4;
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #333D4B;
+
+        &:hover{
+            color: #090a0c;
+        }
+
+        &:active{
+            color: black;
+        }
+    }
+
+    &__h3del{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #000000;
+
+        &:hover{
+            color: #313846;
+        }
+
+        &:active{
+            color: black;
+        }
+    }
+
+    &__number{
+        mix-blend-mode: normal;
+        opacity: 0.4;
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #333D4B;
+
+    }
+
+    &__left-text{
+        display: flex;
+        gap: 20px;
+    }
+
+    &__numberdel{
+        mix-blend-mode: normal;
+        opacity: 0.4;
+
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+
+        color: #313846; 
+    }
+
+    &__hr{
+        border: 2px solid #83888F;
+        width: 300px;
+
+        border-radius: 10%;
+    }
+}

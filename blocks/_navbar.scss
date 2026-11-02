@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1355px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    width: 1300px;
     margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 
     &__list{
         display: flex;
@@ -21,13 +22,8 @@
     }
 
     &__item{
-        :hover{
-            color: #333D4B;
-            transition: 0.5s;
-        }
-
         :active{
-            color: #FDD6BA;
+            color: #000000;
             transition: 0.5s;
         }
     }

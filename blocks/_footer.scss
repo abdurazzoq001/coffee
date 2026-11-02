@@ -1,11 +1,12 @@
 .footer{
     display: flex;
     background-color: #2C343E;
-    width: 1200px;
+    width: 1300px;
     margin: auto;
     align-items: center;
     justify-content: space-evenly;
     height: 100px;
+    margin-top: 30px;
 
     &__img{
         width: 200px;

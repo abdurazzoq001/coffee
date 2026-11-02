@@ -1,19 +1,20 @@
 .intro {
-  width: 1200px;
-  background-color: #a2a2a2;
-  margin: auto;
+  width: 1100px;
+  background-image: url('../imges/Bitmap.png');
+  background-repeat: no-repeat;
   border-radius: 1%;
   height: 500px;
   padding: 75px 70px;
-
+  margin: auto;
+  
   &__h1 {
-    font-family: "Fraunces 9pt";
+    font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
     line-height: 72px;
 
-    width: 500px;
+    width: 700px;
 
     color: #fefcf7;
   }
@@ -34,20 +35,15 @@
   }
 
   &__btn {
-    &:hover {
-      background-color: #5c5252;
-      transition: 0.5s;
-    }
-
     &:active {
-      background-color: #ad1f1f;
+      background-color: #66D2CF;
       transition: 0.5s;
     }
 
     background: #0e8784;
     border-radius: 6px;
 
-    font-family: "Fraunces 9pt";
+    font-family: "Fraunces";
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
@@ -62,4 +58,70 @@
 
     margin-top: 70px;
   }
+}
+
+
+.howworkk{
+    padding: 50px;
+    margin: auto;
+    width: 1200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #333D4B;
+
+    &__cards{
+        display: flex;
+        width: 1100px;
+        justify-content: space-between;
+    }
+
+    &__h1{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+
+        color: #FDD6BA;
+    }
+
+    &__h3{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #ffffff;
+        width: 200px;
+    }
+
+    &__p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #ffffff;
+        width: 300px;
+    }
+}
+
+
+.oval{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.shapes{
+    display: flex;
+    width: 870px;
+    align-items: center;
+}
+
+.line{
+    width: 400px;    
+    background-color: #FDD6BA; 
+    height: 1px;
 }
