@@ -1,12 +1,12 @@
 .intro {
-  width: 1100px;
-  background-image: url('../imges/Bitmap.png');
+  width: 1300px;
+  background-image: url("../imges/Bitmap.png");
   background-repeat: no-repeat;
-  border-radius: 1%;
   height: 500px;
-  padding: 75px 70px;
+  padding: 60px 80px;
   margin: auto;
-  
+
+
   &__h1 {
     font-family: "Fraunces";
     font-style: normal;
@@ -36,7 +36,7 @@
 
   &__btn {
     &:active {
-      background-color: #66D2CF;
+      background-color: #66d2cf;
       transition: 0.5s;
     }
 
@@ -60,68 +60,47 @@
   }
 }
 
-
-.howworkk{
-    padding: 50px;
-    margin: auto;
-    width: 1200px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: #333D4B;
-
-    &__cards{
-        display: flex;
-        width: 1100px;
-        justify-content: space-between;
-    }
-
-    &__h1{
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 72px;
-        line-height: 72px;
-
-        color: #FDD6BA;
-    }
-
-    &__h3{
-        font-family: 'Fraunces';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 36px;
-        color: #ffffff;
-        width: 200px;
-    }
-
-    &__p{
-        font-family: 'Barlow';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 26px;
-        color: #ffffff;
-        width: 300px;
-    }
-}
-
-
-.oval{
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-.shapes{
+@media only screen and (max-width: 480px) {
+  .intro {
+    width: 95%;
+    padding: 100px 30px;
     display: flex;
-    width: 870px;
-    align-items: center;
-}
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
 
-.line{
-    width: 400px;    
-    background-color: #FDD6BA; 
-    height: 1px;
+    &__h1 {
+      font-size: 40px;
+      width: 90%;
+      text-align: center;
+      line-height: 60px;
+      margin: auto;
+    }
+
+    &__p {
+      width: 90%;
+      text-align: center;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      margin: auto;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    &__btn {
+      display: block;
+      margin: auto;
+    }
+  }
 }

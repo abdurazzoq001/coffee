@@ -1,14 +1,17 @@
-@import './blocks/block';
-@import './aboutblocks/aboutblock';
-@import './createblocks/createblock';
+@import "./blocks/block";
+@import "./aboutblocks/aboutblock";
+@import "./createblocks/createblock";
 
-
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-
-li{
-    list-style: none;
+li {
+  list-style: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
