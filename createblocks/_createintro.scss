@@ -1,8 +1,53 @@
 .createintro{
     margin: auto;
     background-image: url(../imges2/Group777.png);
-    padding: 80px 75px;
     background-repeat: no-repeat;
+    padding:  85px 70px;
     width: 1150px;
     height: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__h1{
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+
+        color: #FEFCF7;
+    }
+
+    &__p{
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+
+        color: #FEFCF7;
+
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .createintro{
+        width: 95%;
+        border-radius: 5%;
+        padding: 70px 20px;
+        background-position: -500px;
+
+        &__h1{
+            font-size: 50px;
+            margin: auto;
+        }
+
+        &__p{
+            margin: auto;
+            width: 90%;
+            text-align: center;
+        }
+    }
 }

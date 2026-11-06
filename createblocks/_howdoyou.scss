@@ -1,6 +1,6 @@
 .howdoyou{
     display: flex;
-    width: 1200px;
+    width: 1150px;
     margin: auto;
     justify-content: space-between;
 
@@ -137,7 +137,34 @@
     &__hr{
         border: 2px solid #83888F;
         width: 300px;
-
+        margin-top: 20px;
+        margin-bottom: 20px;
         border-radius: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .howdoyou{
+        width: 95%;
+
+        &__left{
+            display: none;
+        }
+
+        &__cards{
+            flex-direction: column;
+            width: 95%;
+        }
+
+        &__card{
+            margin: auto;
+            margin-top: 20px;
+            width: 100%;
+            height: 150px;
+        }
+
+        &__h2{
+            margin-top: 50px;
+        }
     }
 }

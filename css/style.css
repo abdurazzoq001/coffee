@@ -696,15 +696,52 @@
 .createintro {
   margin: auto;
   background-image: url(../imges2/Group777.png);
-  padding: 80px 75px;
   background-repeat: no-repeat;
+  padding: 85px 70px;
   width: 1150px;
   height: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.createintro__h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+.createintro__p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  width: 450px;
 }
 
+@media only screen and (max-width: 480px) {
+  .createintro {
+    width: 95%;
+    border-radius: 5%;
+    padding: 70px 20px;
+    background-position: -500px;
+  }
+  .createintro__h1 {
+    font-size: 50px;
+    margin: auto;
+  }
+  .createintro__p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+}
 .howdoyou {
   display: flex;
-  width: 1200px;
+  width: 1150px;
   margin: auto;
   justify-content: space-between;
 }
@@ -811,9 +848,32 @@
 .howdoyou__hr {
   border: 2px solid #83888F;
   width: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10%;
 }
 
+@media only screen and (max-width: 480px) {
+  .howdoyou {
+    width: 95%;
+  }
+  .howdoyou__left {
+    display: none;
+  }
+  .howdoyou__cards {
+    flex-direction: column;
+    width: 95%;
+  }
+  .howdoyou__card {
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+  }
+  .howdoyou__h2 {
+    margin-top: 50px;
+  }
+}
 .summary {
   width: 1200px;
   margin: auto;
@@ -869,6 +929,85 @@ span {
   margin-bottom: 100px;
 }
 
+@media only screen and (max-width: 480px) {
+  .summary {
+    width: 95%;
+    align-items: center;
+  }
+  .summary__card {
+    width: 100%;
+    height: 400px;
+  }
+  .summary__h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+.howworkk {
+  width: 1150px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #2C343E;
+  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 2%;
+}
+.howworkk__cards {
+  display: flex;
+  gap: 100px;
+}
+.howworkk__card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.howworkk__h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 70px;
+  line-height: 72px;
+  color: #FDD6BA;
+}
+.howworkk__h3 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  width: 200px;
+  color: #FEFCF7;
+}
+.howworkk__p {
+  width: 290px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+@media only screen and (max-width: 480px) {
+  .howworkk {
+    width: 100%;
+  }
+  .howworkk__cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  .howworkk__h3 {
+    text-align: center;
+    width: 360px;
+  }
+  .howworkk__p {
+    text-align: center;
+    width: 360px;
+  }
+}
 a {
   text-decoration: none;
   color: black;

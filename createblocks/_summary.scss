@@ -60,3 +60,20 @@ span{
     margin-top: 50px;
     margin-bottom: 100px;
 }
+
+@media only screen and (max-width: 480px) {
+    .summary{
+        width: 95%;
+        align-items: center;
+
+        &__card{
+            width: 100%;
+            height: 400px;
+        }
+
+        &__h2{
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+}
