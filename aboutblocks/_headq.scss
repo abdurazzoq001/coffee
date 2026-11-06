@@ -42,3 +42,17 @@
     }
     margin-bottom: 200px;
 }
+
+
+@media only screen and (max-width: 480px){
+    .headq{
+        width: 80%;
+        &__cards{
+            flex-direction: column;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+            gap: 50px;
+        }
+    }
+}

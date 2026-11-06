@@ -28,3 +28,44 @@
         width: 450px;
     }
 }
+
+@media only screen and (max-width: 480px) {
+  .aboutintr{
+    width: 95%;
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    border-radius: 5%;
+
+    &__h2 {
+      font-size: 40px;
+      width: 90%;
+      text-align: center;
+      line-height: 60px;
+      margin: auto;
+    }
+
+    &__p {
+      width: 90%;
+      text-align: center;
+
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      /* or 167% */
+      text-align: center;
+
+      color: #fefcf7;
+
+      mix-blend-mode: normal;
+      opacity: 0.8;
+      margin: auto;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+}

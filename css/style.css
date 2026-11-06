@@ -499,6 +499,40 @@
   width: 450px;
 }
 
+@media only screen and (max-width: 480px) {
+  .aboutintr {
+    width: 95%;
+    padding: 100px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    border-radius: 5%;
+  }
+  .aboutintr__h2 {
+    font-size: 40px;
+    width: 90%;
+    text-align: center;
+    line-height: 60px;
+    margin: auto;
+  }
+  .aboutintr__p {
+    width: 90%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    text-align: center;
+    color: #fefcf7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 .headq {
   width: 1200px;
   margin: auto;
@@ -539,6 +573,18 @@
   margin-bottom: 200px;
 }
 
+@media only screen and (max-width: 480px) {
+  .headq {
+    width: 80%;
+  }
+  .headq__cards {
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+  }
+}
 .our {
   display: flex;
   width: 1100px;
@@ -567,6 +613,26 @@
   color: #333D4B;
 }
 
+@media only screen and (max-width: 480px) {
+  .our {
+    flex-direction: column;
+    width: 95%;
+  }
+  .our__left {
+    width: 95%;
+  }
+  .our__right {
+    width: 95%;
+  }
+  .our__p {
+    width: 95%;
+    text-align: center;
+  }
+  .our__h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 .uncompro {
   display: flex;
   width: 1200px;
@@ -582,7 +648,51 @@
   width: 400px;
   margin-left: 750px;
 }
+.uncompro__h1 {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+}
+.uncompro__p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  width: 450px;
+}
 
+@media only screen and (max-width: 480px) {
+  .uncompro {
+    width: 95%;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    height: 550px;
+    padding: 0;
+    padding-top: 100px;
+  }
+  .uncompro__right {
+    top: -120px;
+    width: 300px;
+    height: 200px;
+    left: -690px;
+    border-radius: 5%;
+  }
+  .uncompro__h2 {
+    margin: auto;
+  }
+  .uncompro__p {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
 .createintro {
   margin: auto;
   background-image: url(../imges2/Group777.png);
