@@ -6,7 +6,6 @@
   padding: 60px 80px;
   margin: auto;
 
-
   &__h1 {
     font-family: "Fraunces";
     font-style: normal;
@@ -35,8 +34,13 @@
   }
 
   &__btn {
+    &:hover {
+      background-color: pink;
+      transition: 0.5s;
+    }
+
     &:active {
-      background-color: #66d2cf;
+      background-color: #397573;
       transition: 0.5s;
     }
 
@@ -57,6 +61,8 @@
     height: 56px;
 
     margin-top: 70px;
+
+    border: 0;
   }
 }
 

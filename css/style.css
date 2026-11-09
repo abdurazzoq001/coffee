@@ -79,8 +79,12 @@
   opacity: 0.8;
   width: 425px;
 }
+.intro__btn:hover {
+  background-color: pink;
+  transition: 0.5s;
+}
 .intro__btn:active {
-  background-color: #66d2cf;
+  background-color: #397573;
   transition: 0.5s;
 }
 .intro__btn {
@@ -97,6 +101,7 @@
   width: 217px;
   height: 56px;
   margin-top: 70px;
+  border: 0;
 }
 
 @media only screen and (max-width: 480px) {
@@ -195,7 +200,7 @@
   margin: auto;
   width: 1200px;
   margin-top: 500px;
-  background-color: #333D4B;
+  background-color: #333d4b;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,7 +214,7 @@
   font-size: 40px;
   line-height: 48px;
   /* identical to box height, or 120% */
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 .whyus__p {
   font-family: "Barlow";
@@ -219,7 +224,7 @@
   line-height: 26px;
   width: 528px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
   mix-blend-mode: normal;
   opacity: 0.8;
 }
@@ -275,7 +280,7 @@
   font-size: 24px;
   line-height: 32px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 .whyus__P1 {
   font-family: "Barlow";
@@ -284,7 +289,7 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #FEFCF7;
+  color: #fefcf7;
 }
 
 @media only screen and (max-width: 480px) {
@@ -477,9 +482,10 @@
   padding: 100px 75px;
   background-image: url("../imges2/Group7(1).png");
   background-repeat: no-repeat;
-  width: 1000px;
+  width: 1300px;
   margin: auto;
   margin-top: 30px;
+  height: 500px;
 }
 .aboutintr__h2 {
   font-family: "Fraunces";
@@ -698,7 +704,7 @@
   background-image: url(../imges2/Group777.png);
   background-repeat: no-repeat;
   padding: 85px 70px;
-  width: 1150px;
+  width: 1300px;
   height: 450px;
   display: flex;
   flex-direction: column;
@@ -944,7 +950,7 @@ span {
   }
 }
 .howworkk {
-  width: 1150px;
+  width: 1300px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
