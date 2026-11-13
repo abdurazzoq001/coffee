@@ -112,3 +112,53 @@
         display: none;
     }
 }
+
+
+
+@media only screen and (max-width: 912px) {
+    .howwork{
+        margin-top: 400px;
+        width: 85%;
+
+        &__cards{
+            width: 80%;
+            gap: 20px;
+        }
+
+        &__h4{
+            margin-bottom: 50px;
+        }
+
+        &__h3{
+            font-size: 30px;
+        }
+
+        &__card3{
+            margin-bottom: 50px;
+        }
+
+        &__p{
+            width: 200px;
+        }
+    }
+
+
+    .oval{
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+
+    .shapes{
+        display: flex;
+        width: 95%;
+        align-items: center;
+    }
+
+    .line{
+        width: 240px;    
+        background-color: #FDD6BA; 
+        height: 1px;
+    }
+}

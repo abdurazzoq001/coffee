@@ -57,3 +57,17 @@
         }
     }
 }
+
+
+
+@media only screen and (max-width: 912px){
+    .footer{
+        width: 85%;
+        flex-direction: column;
+        height: 300px;
+
+        &__list{
+            align-items: center;
+        }
+    }
+}

@@ -18,6 +18,8 @@
     /* identical to box height, or 120% */
 
     color: #fefcf7;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   &__p {
@@ -52,7 +54,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 1700px;
+    top: 1620px;
     border-radius: 3%;
   }
 
@@ -65,7 +67,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 1700px;
+    top: 1620px;
     margin-left: 350px;
     border-radius: 3%;
   }
@@ -79,7 +81,7 @@
     width: 300px;
     height: 300px;
     position: absolute;
-    top: 1700px;
+    top: 1620px;
     margin-left: 700px;
     border-radius: 3%;
     text-align: center;
@@ -147,6 +149,74 @@
       top: 3400px;
       margin: 0%;
       height: 420px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 912px) {
+  .whyus {
+    width: 90%;
+    margin-top: 1200px;
+    height: 1000px;
+    align-items: center;
+
+    &__p {
+      width: 95%;
+      margin-top: 50px;
+      margin-bottom: 100px;
+    }
+
+    &__h1 {
+      margin-top: 50px;
+    }
+
+    &__cards {
+      width: 100%;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__card1 {
+      top: 2250px;
+      height: 300px;
+      width: 80%;
+      flex-direction: row;
+    }
+
+    &__card2 {
+      top: 2570px;
+      height: 300px;
+      width: 80%;
+      margin: 0%;
+      flex-direction: row;
+    }
+
+    &__card3 {
+      top: 2890px;
+      height: 300px;
+      width: 80%;
+      margin: 0%;
+      flex-direction: row;
+    }
+
+    &__texttttt{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      text-align: start;
+    }
+
+    &__P1{
+      text-align: start;
+      width: 400px;
+      margin-top: 20px    ;
     }
   }
 }

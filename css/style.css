@@ -51,6 +51,11 @@
     height: 1px;
   }
 }
+@media only screen and (max-width: 912px) {
+  .navbar {
+    width: 85%;
+  }
+}
 .intro {
   width: 1300px;
   background-image: url("../imges/Bitmap.png");
@@ -141,6 +146,20 @@
     margin: auto;
   }
 }
+@media only screen and (max-width: 912px) {
+  .intro {
+    width: 90%;
+    padding: 100px 35px;
+    background-position: -300px;
+  }
+  .intro__btn {
+    margin-top: 0;
+  }
+  .intro__p {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
 .ourcollect {
   margin: auto;
   width: 1200px;
@@ -161,7 +180,7 @@
   top: 75px;
 }
 .ourcollect__H4 {
-  font-family: "Fraunces 9pt";
+  font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -196,6 +215,35 @@
     margin: 0%;
   }
 }
+@media only screen and (max-width: 912px) {
+  .ourcollect {
+    width: 100%;
+  }
+  .ourcollect__card {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0%;
+    margin: 0%;
+  }
+  .ourcollect__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+  }
+  .ourcollect__cards {
+    display: flex;
+  }
+  .ourcollect__img {
+    width: 95%;
+    top: 220px;
+  }
+  .ourcollect__P {
+    text-align: start;
+    width: 300px;
+  }
+}
 .whyus {
   margin: auto;
   width: 1200px;
@@ -215,6 +263,8 @@
   line-height: 48px;
   /* identical to box height, or 120% */
   color: #fefcf7;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .whyus__p {
   font-family: "Barlow";
@@ -243,7 +293,7 @@
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 1700px;
+  top: 1620px;
   border-radius: 3%;
 }
 .whyus__card2 {
@@ -255,7 +305,7 @@
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 1700px;
+  top: 1620px;
   margin-left: 350px;
   border-radius: 3%;
 }
@@ -268,7 +318,7 @@
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 1700px;
+  top: 1620px;
   margin-left: 700px;
   border-radius: 3%;
   text-align: center;
@@ -324,6 +374,58 @@
     top: 3400px;
     margin: 0%;
     height: 420px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .whyus {
+    width: 90%;
+    margin-top: 1200px;
+    height: 1000px;
+    align-items: center;
+  }
+  .whyus__p {
+    width: 95%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+  .whyus__h1 {
+    margin-top: 50px;
+  }
+  .whyus__cards {
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .whyus__card1 {
+    top: 2250px;
+    height: 300px;
+    width: 80%;
+    flex-direction: row;
+  }
+  .whyus__card2 {
+    top: 2570px;
+    height: 300px;
+    width: 80%;
+    margin: 0%;
+    flex-direction: row;
+  }
+  .whyus__card3 {
+    top: 2890px;
+    height: 300px;
+    width: 80%;
+    margin: 0%;
+    flex-direction: row;
+  }
+  .whyus__texttttt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+  }
+  .whyus__P1 {
+    text-align: start;
+    width: 400px;
+    margin-top: 20px;
   }
 }
 .howwork {
@@ -425,6 +527,44 @@
     display: none;
   }
 }
+@media only screen and (max-width: 912px) {
+  .howwork {
+    margin-top: 400px;
+    width: 85%;
+  }
+  .howwork__cards {
+    width: 80%;
+    gap: 20px;
+  }
+  .howwork__h4 {
+    margin-bottom: 50px;
+  }
+  .howwork__h3 {
+    font-size: 30px;
+  }
+  .howwork__card3 {
+    margin-bottom: 50px;
+  }
+  .howwork__p {
+    width: 200px;
+  }
+  .oval {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  .shapes {
+    display: flex;
+    width: 95%;
+    align-items: center;
+  }
+  .line {
+    width: 240px;
+    background-color: #FDD6BA;
+    height: 1px;
+  }
+}
 .footer {
   display: flex;
   background-color: #2C343E;
@@ -475,6 +615,16 @@
   }
   .footer__list {
     flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .footer {
+    width: 85%;
+    flex-direction: column;
+    height: 300px;
+  }
+  .footer__list {
     align-items: center;
   }
 }

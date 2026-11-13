@@ -110,3 +110,24 @@
     }
   }
 }
+
+
+
+
+
+@media only screen and (max-width: 912px) {
+  .intro {
+    width: 90%;
+    padding: 100px 35px;
+    background-position: -300px;
+
+    &__btn{
+      margin-top: 0;
+    }
+
+    &__p{
+      margin-bottom: 25px;
+      margin-top: 25px;
+    }
+  }
+}
